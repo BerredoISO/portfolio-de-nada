@@ -239,10 +239,6 @@ section.skills .flex {
         text-align: center;
     }
 
-    header .contact button {
-        width: 100%;
-    }
-
     section.top .flex {
         flex-direction: column;
         gap: 30px;
@@ -259,7 +255,12 @@ section.skills .flex {
     }
 
     .bottom-contact {
-        width: 100%;
+        width: 65%;
+        height: 6rem;
+    }
+
+    header .contact{
+        display: none;
     }
 
     section.projects .flex,
