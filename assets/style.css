@@ -263,6 +263,10 @@ section.skills .flex {
         display: none;
     }
 
+    .txt-top p{
+        margin: 10px;
+    }
+
     section.projects .flex,
     section.skills .flex {
         justify-content: center;
